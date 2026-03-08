@@ -23,7 +23,9 @@
 
 ## Screenshot
 
-![Main Window](screenshot.png)
+<p align="center">
+  <img src="screenshot.png" alt="Main Window" />
+</p>
 
 ## Requirements
 
