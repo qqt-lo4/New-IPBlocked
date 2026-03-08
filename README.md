@@ -11,6 +11,10 @@
 </div>
 <br clear="left" />
 
+## Screenshot
+
+![Main Window](screenshot.png)
+
 ## Features
 
 - **Modern WPF Interface** with adaptive dark/light theme
