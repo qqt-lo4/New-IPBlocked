@@ -11,10 +11,6 @@
 </div>
 <br clear="left" />
 
-## Screenshot
-
-![Main Window](screenshot.png)
-
 ## Features
 
 - **Modern WPF Interface** with adaptive dark/light theme
@@ -24,6 +20,10 @@
 - **Automatic policy deployment**: publishes changes and installs policies on relevant gateways
 - **Persistent configuration**: saves server list, block group name, and per-user credentials
 - **ITSM & XDR references**: tracks ticket numbers in object comments for auditability
+
+## Screenshot
+
+![Main Window](screenshot.png)
 
 ## Requirements
 
