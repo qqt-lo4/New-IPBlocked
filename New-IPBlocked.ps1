@@ -1,10 +1,20 @@
-﻿#region Includes
+﻿$iModulesCount = 6
+$i = 0
+
+#region Includes
+Write-Progress -Activity "Loading script modules" -Status "PSSomeAPIThings" -PercentComplete (($($i++; $i) / $iModulesCount) * 100)
 Import-Module $PSScriptRoot\UDF\PSSomeAPIThings
+Write-Progress -Activity "Loading script modules" -Status "PSSomeCheckPointNPMThings" -PercentComplete (($($i++; $i) / $iModulesCount) * 100)
 Import-Module $PSScriptRoot\UDF\PSSomeCheckPointNPMThings -WarningAction SilentlyContinue
+Write-Progress -Activity "Loading script modules" -Status "PSSomeCoreThings" -PercentComplete (($($i++; $i) / $iModulesCount) * 100)
 Import-Module $PSScriptRoot\UDF\PSSomeCoreThings
+Write-Progress -Activity "Loading script modules" -Status "PSSomeDataThings" -PercentComplete (($($i++; $i) / $iModulesCount) * 100)
 Import-Module $PSScriptRoot\UDF\PSSomeDataThings
+Write-Progress -Activity "Loading script modules" -Status "PSSomeGUIThings" -PercentComplete (($($i++; $i) / $iModulesCount) * 100)
 Import-Module $PSScriptRoot\UDF\PSSomeGUIThings
+Write-Progress -Activity "Loading script modules" -Status "PSSomeNetworkThings" -PercentComplete (($($i++; $i) / $iModulesCount) * 100)
 Import-Module $PSScriptRoot\UDF\PSSomeNetworkThings
+Write-Progress -Activity "Loading script modules" -Status "Loading end" -PercentComplete 100 -Completed
 #endregion Includes
 
 #region script info
